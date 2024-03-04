@@ -1,0 +1,77 @@
+html {
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+  
+body {
+    margin: 0;
+    background-image: url("../static/school1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.box p {
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    width: 300px;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.box {
+    display: grid;
+    place-items: start;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    justify-content: space-around;
+}
+
+
+.list-content {
+    box-sizing: border-box;
+    width: 300px;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 100, 0.5);
+    cursor: pointer;
+}
+  
+.list-content a {
+    color: white;
+    padding: 20px auto;
+    text-decoration: none;
+    display: block;
+}
+
+.list-content li {
+    display: block;
+    border-bottom: 1px solid white;
+    margin: 10px;
+}
+  
+
+  
